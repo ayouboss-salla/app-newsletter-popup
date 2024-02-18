@@ -1,7 +1,0 @@
-name = "flat-glade-aa7b"
-main = "index.js"
-compatibility_date = "2023-09-20"
-
-# secrets
-## TURSO_URL
-## TURSO_AUTH_TOKEN
