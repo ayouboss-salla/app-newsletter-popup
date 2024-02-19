@@ -517,16 +517,18 @@
     
     </div>
     <script>
-    ow.addEventListener('scroll', function () {
-      const header = document.querySelector('#       dow.scrollY > 460) {
+    window.addEventListener('scroll', function () {
+        const header = document.querySelector('#site-title');
+        // Add a class to the header when scrolling down
+        if (window.scrollY > 460) {
 
-        head                      olor = "#fb7f24";
-      } else {
-        // Remo          lass when scrolling back to t                  
-        header.style.color = "#fff";
+          header.style.color = "#fb7f24";
+        } else {
+          // Remove the class when scrolling back to the top
+          header.style.color = "#fff";
 
-      }
-    });
+        }
+      });
       </script>
 
 </body>
